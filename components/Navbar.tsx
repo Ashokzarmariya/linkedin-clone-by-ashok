@@ -32,8 +32,8 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
                   </Typography>
-                  {session ? <Avatar src={`${session?.user?.image}`} />
-                      : <Button onClick={() => {
+                  
+                       <Button onClick={() => {
                           Router.push('/auth/signin')
                   }} color="inherit">Login</Button>}
                   
