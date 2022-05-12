@@ -12,7 +12,7 @@ import Router from 'next/router';
 
 
 export default function Navbar() {
-    const { data: session } = useSession();
+    
    
     
 
@@ -35,7 +35,7 @@ export default function Navbar() {
                   
                        <Button onClick={() => {
                           Router.push('/auth/signin')
-                  }} color="inherit">Login</Button>}
+                  }} color="inherit">Login</Button>
                   
           
         </Toolbar>
