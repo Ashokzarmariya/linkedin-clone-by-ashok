@@ -34,7 +34,7 @@ export default function Navbar() {
                   </Typography>
                   
                        <Button onClick={() => {
-                          Router.push('/auth/signin')
+                          Router.push('/signup')
                   }} color="inherit">Login</Button>
                   
           
