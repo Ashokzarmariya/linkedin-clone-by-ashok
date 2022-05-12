@@ -14,9 +14,7 @@ import Router from 'next/router';
 export default function Navbar() {
     const { data: session } = useSession();
    
-    React.useEffect(() => {
-        console.log("session",session)
-    },[session])
+    
 
   return (
     <Box sx={{ flexGrow: 1 }}>
